@@ -1,30 +1,37 @@
 ﻿l_spanish:
-  travl_character_traveling_tooltip_companions: '[Character.Custom(''travl_character_traveling_tooltip_companions'')]'
-  travl_companions_1: $travl_together_with$ [SCOPE.sC('companion1').GetUIName]
-  travl_companions_2: $travl_together_with$ [SCOPE.sC('companion1').GetUIName] e [SCOPE.sC('companion2').GetUIName]
-  travl_companions_3: $travl_together_with$ [SCOPE.sC('companion1').GetUIName], [SCOPE.sC('companion2').GetUIName], e [SCOPE.sC('companion3').GetUIName]
-  travl_companions_4: $travl_together_with$ [SCOPE.sC('companion1').GetUIName], [SCOPE.sC('companion2').GetUIName], [SCOPE.sC('companion3').GetUIName], e outros
-  travl_companions_empty: ''
-  travl_i_am_being_tortured: Você está sendo torturado(a)!
-  travl_i_am_traveling: Você está viajando para o local da sua prisão
-  travl_i_am_traveling_or_being_tortured: '[SelectLocalization(CHARACTER.MakeScope.Var(''travl_travel_receiver'').IsSet, ''travl_i_am_traveling'', ''travl_i_am_being_tortured'')]'
-  travl_is_imprisoned_modifier: Preso(a)
-  travl_is_imprisoned_modifier_desc: Você está preso(a) e viajando para o local da sua prisão
-  travl_prison_guard_modifier: Escolta de Prisioneiros
-  travl_prison_guard_modifier_desc: Este personagem está escoltando prisioneiros em viagem
-  travl_prisontype_travel: viagem de prisioneiros
-  travl_prisontypecell_travel: viagem de prisioneiros
-  travl_prisontypemodifier_travel: '[GetModifier(''travl_travel_prison_type'').GetNameWithTooltip]'
-  travl_they_are_being_tortured: '[Character.GetShortUIName|U] está sendo torturado(a)'
-  travl_they_are_traveling: '[Character.GetShortUIName|U] está viajando para o local de sua prisão'
-  travl_they_are_traveling_or_being_tortured: '[SelectLocalization(CHARACTER.MakeScope.Var(''travl_travel_receiver'').IsSet, ''travl_they_are_traveling'', ''travl_they_are_being_tortured'')]'
-  travl_together_with: junto com
-  travl_travel_leader_recruited.t: Líder de Viagem Designado
-  travl_travel_prison_type: Viagem de Prisioneiro
-  travl_travel_prison_type_desc: Este personagem está preso e viajando para o local de sua prisão
-  travl_travel_safety_high_modifier: Alta Segurança na Viagem
-  travl_travel_safety_high_modifier_desc: A segurança da viagem é aumentada de acordo com as regras do jogo
-  travl_travel_safety_medium_modifier: Segurança Média na Viagem
-  travl_travel_safety_medium_modifier_desc: $travl_travel_safety_high_modifier_desc$
-  travl_travel_safety_very_high_modifier: Segurança Muito Alta na Viagem
-  travl_travel_safety_very_high_modifier_desc: $travl_travel_safety_high_modifier_desc$
+  travl_is_imprisoned_modifier: "Preso"
+  travl_is_imprisoned_modifier_desc: "Você está preso e viajando para o local de sua prisão"
+
+  travl_travel_safety_medium_modifier: "Segurança de Viagem Média"
+  travl_travel_safety_medium_modifier_desc: "$travl_travel_safety_high_modifier_desc$"
+  travl_travel_safety_high_modifier: "Segurança de Viagem Alta"
+  travl_travel_safety_high_modifier_desc: "A segurança da viagem é aumentada de acordo com as regras do jogo"
+  travl_travel_safety_very_high_modifier: "Segurança de Viagem Muito Alta"
+  travl_travel_safety_very_high_modifier_desc: "$travl_travel_safety_high_modifier_desc$"
+
+  travl_prison_guard_modifier: "Escolta de Prisioneiros"
+  travl_prison_guard_modifier_desc: "Este personagem está escoltando prisioneiros em viagem"
+
+  travl_travel_prison_type: "Viajando para a Prisão"
+  travl_travel_prison_type_desc: "Este personagem está preso e viajando para o local de sua prisão"
+
+  travl_travel_leader_recruited.t: "Líder de Viagem Designado"
+
+  travl_character_traveling_tooltip_companions: "[Character.Custom('travl_character_traveling_tooltip_companions')]"
+  travl_together_with: "junto com"
+  travl_companions_1: "$travl_together_with$ [SCOPE.sC('companion1').GetUIName]"
+  travl_companions_2: "$travl_together_with$ [SCOPE.sC('companion1').GetUIName] e [SCOPE.sC('companion2').GetUIName]"
+  travl_companions_3: "$travl_together_with$ [SCOPE.sC('companion1').GetUIName], [SCOPE.sC('companion2').GetUIName], e [SCOPE.sC('companion3').GetUIName]"
+  travl_companions_4: "$travl_together_with$ [SCOPE.sC('companion1').GetUIName], [SCOPE.sC('companion2').GetUIName], [SCOPE.sC('companion3').GetUIName], e outros"
+  travl_companions_empty: ""
+
+  travl_i_am_traveling_or_being_tortured: "[SelectLocalization(CHARACTER.MakeScope.Var('travl_travel_receiver').IsSet, 'travl_i_am_traveling', 'travl_i_am_being_tortured')]"
+  travl_they_are_traveling_or_being_tortured: "[SelectLocalization(CHARACTER.MakeScope.Var('travl_travel_receiver').IsSet, 'travl_they_are_traveling', 'travl_they_are_being_tortured')]"
+  travl_i_am_traveling: "Você está viajando para o local de sua prisão"
+  travl_they_are_traveling: "[Character.GetShortUIName|U] está viajando para o local de sua prisão"
+  travl_i_am_being_tortured: "Você está sendo torturado!"
+  travl_they_are_being_tortured: "[Character.GetShortUIName|U] está sendo torturado"
+
+  travl_prisontype_travel: "viagem de prisioneiro"
+  travl_prisontypemodifier_travel: "[GetModifier('travl_travel_prison_type').GetNameWithTooltip]"
+  travl_prisontypecell_travel: "viagem de prisioneiro"

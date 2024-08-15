@@ -1,121 +1,336 @@
 ﻿l_spanish:
-travel_completion_event.1000.c: Para onde a estrada me levará desta vez?
-travel_completion_event.1000.desc.aborted: 'Não faz mais sentido continuar minha jornada para [final_destination_province.GetName]. Posso tomar um momento de descanso.'
-travl_char_were_was: '[Select_CString(THIS.Char.IsLocalPlayer, ''estava'', ''estava'')]'
-travl_char_you_her_him: '[Select_CString(THIS.Char.IsLocalPlayer, ''você'', THIS.Char.GetHerHim)]'
-travl_char_you_she_he: '[Select_CString(THIS.Char.IsLocalPlayer, ''você'', THIS.Char.GetSheHe)]'
-travl_char_you_she_he_u: '[Select_CString(THIS.Char.IsLocalPlayer, ''você'', THIS.Char.GetSheHe)|U]'
-travl_char_your_her_his: '[Select_CString(THIS.Char.IsLocalPlayer, ''seu'', THIS.Char.GetHerHis)]'
-travl_msg_prisoner_0001_a_failure: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ atacou [guard.GetShortUIName], mas falhou em derrotar [guard.GetHerHim].
-travl_msg_prisoner_0001_a_success: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ atacou [guard.GetShortUIName] e conseguiu derrotar [guard.GetHerHim].
-travl_msg_prisoner_0001_b_failure: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ falhou em persuadir [guard.GetShortUIName] a libertar $travl_char_you_her_him$ e $travl_char_were_was$ chicoteado(a) por sua insolência.
-travl_msg_prisoner_0001_b_success: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ de alguma forma conseguiu persuadir [guard.GetShortUIName] a libertar $travl_char_you_her_him$.
-travl_msg_prisoner_0001_c_failure: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ falhou em enganar [guard.GetShortUIName] para libertar $travl_char_you_her_him$ e $travl_char_were_was$ chicoteado(a) por sua insolência.
-travl_msg_prisoner_0001_c_success: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ conseguiu enganar [guard.GetShortUIName] para libertar $travl_char_you_her_him$.
-travl_msg_prisoner_0001_d_failure: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ falhou em subornar [guard.GetShortUIName] para deixar $travl_char_you_her_him$ escapar e $travl_char_were_was$ ridicularizado(a).
-travl_msg_prisoner_0001_d_success: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ subornou [guard.GetShortUIName] para deixar $travl_char_you_her_him$ escapar.
-travl_msg_prisoner_0001_e_failure: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ falhou em seduzir [guard.GetShortUIName] para ganhar sua liberdade e $travl_char_were_was$ ridicularizado(a).
-travl_msg_prisoner_0001_e_success: $travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ seduziu [guard.GetShortUIName] para ganhar sua liberdade.
-travl_msg_prisoner_0001_prefix: '[THIS.Char.GetShortUIName|U] tentou escapar dos guardas em [location.GetName]'
-travl_msg_prisoner_0001_t: Fuga da Prisão
-travl_msg_prisoner_0002_a_failure: $travl_msg_prisoner_0002_prefix$, e [THIS.Char.GetSheHe] falhou em evitar ser interceptado(a).
-travl_msg_prisoner_0002_a_success: $travl_msg_prisoner_0002_prefix$, mas [THIS.Char.GetSheHe] conseguiu evitar ser interceptado(a).
-travl_msg_prisoner_0002_prefix: '[THIS.Char.GetShortUIName|U] e seus prisioneiros escoltados passaram por um exército hostil liderado por [army_commander.GetShortUIName] em [location.GetName]'
-travl_msg_prisoner_0002_t: Exército Hostil
-travl_msg_travel_danger_0001_a_failure: $travl_msg_travel_danger_0001_prefix$, e $travl_this_or_prowess_character$ falhou em derrotá-los na luta que se seguiu.
-travl_msg_travel_danger_0001_a_success: $travl_msg_travel_danger_0001_prefix$, mas $travl_this_or_prowess_character$ conseguiu derrotá-los na luta que se seguiu.
-travl_msg_travel_danger_0001_b_failure: $travl_msg_travel_danger_0001_prefix$, e $travl_this_or_diplomacy_character$ falhou em persuadi-los a deixá-los passar.
-travl_msg_travel_danger_0001_b_success: $travl_msg_travel_danger_0001_prefix$, mas $travl_this_or_diplomacy_character$ conseguiu persuadi-los a deixá-los passar.
-travl_msg_travel_danger_0001_c: $travl_msg_travel_danger_0001_prefix$, e $travl_this_or_gold_character$ os pagou com ouro.
-travl_msg_travel_danger_0001_d: $travl_msg_travel_danger_0001_prefix$ e foram atacados e roubados por eles.
-travl_msg_travel_danger_0001_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros encontraram bandidos na estrada em [location.GetName]'
-travl_msg_travel_danger_0001_t: $travel_danger_prefix$ Bandidos
-travl_msg_travel_danger_0002_a_failure: $travl_msg_travel_danger_0002_prefix$, e $travl_this_or_stewardship_character$ falhou em encontrar [missing_companion.GetHerHim].
-travl_msg_travel_danger_0002_a_success: $travl_msg_travel_danger_0002_prefix$, mas $travl_this_or_stewardship_character$ conseguiu encontrar [missing_companion.GetHerHim].
-travl_msg_travel_danger_0002_b: $travl_msg_travel_danger_0002_prefix$, e deixaram [missing_companion.GetHerHim].
-travl_msg_travel_danger_0002_prefix: Um dos companheiros de [THIS.Char.GetShortUINamePossessive|U], [missing_companion.GetShortUIName], desapareceu nas [location.Custom('GetTerrainTypePlural')] de [location.GetName]
-travl_msg_travel_danger_0002_t: $travel_danger_prefix$ Companheiro Desaparecido
-travl_msg_travel_danger_0003_a_failure: $travl_msg_travel_danger_0003_prefix$, e $travl_this_or_learning_character$ falhou em encontrar o caminho certo.
-travl_msg_travel_danger_0003_a_success: $travl_msg_travel_danger_0003_prefix$, mas $travl_this_or_learning_character$ conseguiu encontrar o caminho certo.
-travl_msg_travel_danger_0003_b_failure: $travl_msg_travel_danger_0003_prefix$, e $travl_this_or_stewardship_character$ falhou em encontrar um guia local experiente.
-travl_msg_travel_danger_0003_b_success: $travl_msg_travel_danger_0003_prefix$, mas $travl_this_or_stewardship_character$ conseguiu encontrar um guia local experiente.
-travl_msg_travel_danger_0003_c: $travl_msg_travel_danger_0003_prefix$ e vagaram por dias tentando encontrá-lo.
-travl_msg_travel_danger_0003_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros perderam o caminho nas [location.Custom(''GetTerrainTypePlural'')] de [location.GetName]'
-travl_msg_travel_danger_0003_t: $travel_danger_prefix$ Perdidos
-travl_msg_travel_danger_0004_a: Vá para um oásis próximo
-travl_msg_travel_danger_0004_b: Mate a sede dos seus companheiros com um discurso inspirador
-travl_msg_travel_danger_0004_b_failure: Você falha em inspirar seus companheiros
-travl_msg_travel_danger_0004_b_success: Você consegue inspirar seus companheiros
-travl_msg_travel_danger_0004_c_failure: $travl_msg_travel_danger_0004_prefix$, e [THIS.Char.GetSheHe] falhou em encontrar água interrogando [water_hider.GetShortUIName].
-travl_msg_travel_danger_0004_c_success: $travl_msg_travel_danger_0004_prefix$, mas [THIS.Char.GetSheHe] conseguiu encontrar água interrogando [water_hider.GetShortUIName].
-travl_msg_travel_danger_0004_d: $travl_msg_travel_danger_0004_prefix$ e sofreram muito de sede.
-travl_msg_travel_danger_0004_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros ficaram sem água ao atravessar as [location.Custom(''GetTerrainTypePlural'')] de [location.GetName]'
-travl_msg_travel_danger_0004_t: $travel_danger_prefix$ Sem Água
-travl_msg_travel_danger_0005_a: Pare [zombie.GetHerHim]
-travl_msg_travel_danger_0005_b: Deixe [zombie.GetHerHim] se juntar a nós
-travl_msg_travel_danger_0005_b.bad: '[zombie.GetSheHe] tem más intenções'
-travl_msg_travel_danger_0005_b.good: '[zombie.GetSheHe] tem boas intenções'
-travl_msg_travel_danger_0005.desc: Encontramos um(a) miserável [zombie.GetWomanMan] enquanto viajávamos por uma área devastada pela guerra.
-travl_msg_travel_danger_0005_t: $travel_danger_prefix$ Consequências
-travl_msg_travel_danger_0006_a: Arghghghghgh!
-travl_msg_travel_danger_0006.desc: Uma terrível tempestade no mar nos engolfa. Eu assisto em horror enquanto marinheiros são jogados nas profundezas negras, e uma enorme onda invade o navio.
-travl_msg_travel_danger_0006_t: $travel_danger_prefix$ Tempestade no Mar
-travl_msg_travel_danger_0007_a: Tente resgatá-los
-travl_msg_travel_danger_0007_a_failure: Você falha em resgatar a vítima da avalanche
-travl_msg_travel_danger_0007_a_success: Você consegue resgatar a vítima da avalanche
-travl_msg_travel_danger_0007_b: Não tente resgatá-los
-travl_msg_travel_danger_0007.desc: Um dos nossos companheiros foi soterrado pela neve por uma avalanche.
-travl_msg_travel_danger_0007_t: $travel_danger_prefix$ Avalanche
-travl_msg_travel_danger_0008_a_failure: $travl_msg_travel_danger_0008_prefix$, e $travl_this_or_diplomacy_character$ falhou em convencer alguns locais a ajudá-los.
-travl_msg_travel_danger_0008_a_success: $travl_msg_travel_danger_0008_prefix$, mas $travl_this_or_diplomacy_character$ conseguiu convencer alguns locais a ajudá-los.
-travl_msg_travel_danger_0008_b: $travl_msg_travel_danger_0008_prefix$, e $travl_this_or_gold_character$ pagou alguns locais para ajudá-los.
-travl_msg_travel_danger_0008_c: $travl_msg_travel_danger_0008_prefix$ e não aceitaram a ajuda oferecida por alguns locais.
-travl_msg_travel_danger_0008_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros ficaram presos após uma forte nevasca em [location.GetName]'
-travl_msg_travel_danger_0008_t: $travel_danger_prefix$ Presos na Neve
-travl_msg_travel_danger_0009_a_failure: $travl_msg_travel_danger_0009_prefix$, e $travl_this_or_learning_character$ falhou em fazer o navio voltar a navegar com velas improvisadas.
-travl_msg_travel_danger_0009_a_success: $travl_msg_travel_danger_0009_prefix$, mas $travl_this_or_learning_character$ conseguiu fazer o navio voltar a navegar com velas improvisadas.
-travl_msg_travel_danger_0009_b: $travl_msg_travel_danger_0009_prefix$ e derivaram lentamente com o vento até que um navio de passagem ofereceu assistência.
-travl_msg_travel_danger_0009_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros perderam suas velas em uma tempestade branca em [location.GetName]'
-travl_msg_travel_danger_0009_t: $travel_danger_prefix$ Velas Rasgadas
-travl_msg_travel_danger.0010.a.failure: $travl_msg_travel_danger_0010_prefix$, e $travl_this_or_martial_character$ falhou em apagá-lo.
-travl_msg_travel_danger.0010.a.success: $travl_msg_travel_danger_0010_prefix$, mas $travl_this_or_martial_character$ conseguiu apagá-lo.
-travl_msg_travel_danger.0010.b: Corra
-travl_msg_travel_danger.0010_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros foram surpreendidos por um incêndio florestal nas [location.Custom(''GetTerrainTypePlural'')] de [location.GetName]'
-travl_msg_travel_danger.0010_t: $travel_danger_prefix$ Incêndio Florestal
-travl_msg_travel_danger.0011.a.failure: $travl_msg_travel_danger_0011_prefix$, e $travl_this_or_learning_character$ falhou em usar uma erva local como remédio.
-travl_msg_travel_danger.0011.a.success: $travl_msg_travel_danger_0011_prefix$, mas $travl_this_or_learning_character$ conseguiu usar uma erva local como remédio.
-travl_msg_travel_danger.0011.b: Continue
-travl_msg_travel_danger.0011_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros foram atormentados por mosquitos nas [location.Custom(''GetTerrainTypePlural'')] de [location.GetName]'
-travl_msg_travel_danger.0011_t: $travel_danger_prefix$ Mosquitos
-travl_msg_travel_danger.0012.a.failure: $travl_msg_travel_danger_0012_prefix$, e $travl_this_or_prowess_character$ falhou em matá-lo.
-travl_msg_travel_danger.0012.a.success: $travl_msg_travel_danger_0012_prefix$, mas $travl_this_or_prowess_character$ conseguiu matá-lo.
-travl_msg_travel_danger.0012_b: Corra
-travl_msg_travel_danger.0012_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros foram atacados por uma temível [THIS.Char.Custom(''GetAnimalType'')] nas [location.Custom(''GetTerrainTypePlural'')] de [location.GetName]'
-travl_msg_travel_danger.0012_t: $travel_danger_prefix$ Ataque de Fera
-travl_msg_travel_danger.0013.a.failure: $travl_msg_travel_danger_0013_prefix$, e $travl_this_or_learning_character$ falhou em encontrar comida por meio de forragem.
-travl_msg_travel_danger.0013.a.success: $travl_msg_travel_danger_0013_prefix$, mas $travl_this_or_learning_character$ conseguiu encontrar comida por meio de forragem.
-travl_msg_travel_danger.0013.b.failure: $travl_msg_travel_danger_0013_prefix$, e $travl_this_or_intrigue_character$ falhou em roubar comida dos locais.
-travl_msg_travel_danger.0013.b.success: $travl_msg_travel_danger_0013_prefix$, mas $travl_this_or_intrigue_character$ conseguiu roubar comida dos locais.
-travl_msg_travel_danger.0013_c: $travl_msg_travel_danger_0013_prefix$ e simplesmente os comeram, arriscando-se a adoecer.
-travl_msg_travel_danger.0013_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros encontraram seus suprimentos de comida estragados em [location.GetName]'
-travl_msg_travel_danger.0013_t: $travel_danger_prefix$ Comida Estragada
-travl_msg_travel_danger.0014.a: Devemos continuar...
-travl_msg_travel_danger.0014.desc: Alguns de nós começam a se sentir fracos, ficando para trás do restante do grupo... Há algo errado...
-travl_msg_travel_danger.0014_t: $travel_danger_prefix$ Doença
-travl_msg_travel_danger.0015.a.failure: $travl_msg_travel_danger_0015_prefix$, e $travl_this_or_learning_character$ falhou em tornar a água segura para beber fervendo-a.
-travl_msg_travel_danger.0015.a.success: $travl_msg_travel_danger_0015_prefix$, mas $travl_this_or_learning_character$ conseguiu tornar a água segura para beber fervendo-a.
-travl_msg_travel_danger.0015_b: Beba do poço
-travl_msg_travel_danger.0015_c: Não ousamos beber dela, ficando com sede por algum tempo.
-travl_msg_travel_danger.0015_prefix: '[THIS.Char.GetShortUIName|U] e seus companheiros se depararam com um poço com água contaminada em [location.GetName]'
-travl_msg_travel_danger.0015_t: $travel_danger_prefix$ Carniça
-travl_msg_travel_danger.1005.a: Dê ouro a [zombie.GetHerHim]
-travl_msg_travel_danger.1005.b: Deixe [zombie.GetHerHim] se juntar a nós
-travl_msg_travel_danger.1005_c: Não é problema meu
-travl_msg_travel_danger.1005.desc: O [zombie.GetWomanMan] nos pede ajuda.
-travl_msg_travel_danger.1005_t: $travl_travel_danger.0005.t$, Boas Intenções
-travl_msg_travel_danger.2005.a.failure: $travl_msg_travel_danger_2005_prefix$, e $travl_this_or_prowess_character$ falhou em afastar [zombie.GetHerHim].
-travl_msg_travel_danger.2005.a.success: $travl_msg_travel_danger_2005_prefix$, mas $travl_this_or_prowess_character$ conseguiu afastar [zombie.GetHerHim].
-travl_msg_travel_danger.2005_b: Corra de [zombie.GetHerHim]
-travl_msg_travel_danger.2005_desc: O [zombie.GetWomanMan] nos ataca.
-travl_msg_travel_danger.2005_t: $travl_msg_travel_danger.0005.t$, Más Intenções
+  travel_completion_event.1000.desc.aborted: "Não faz mais sentido continuar minha jornada para [final_destination_province.GetName]. Talvez eu deva aproveitar um momento de descanso, "
+  travel_completion_event.1000.c: "Para onde o caminho me levará desta vez?"
+
+  # Textos de eventos de perigo de viagem (eventos ocultos, sem necessidade de tradução)
+  # travel_danger.0001 Bandidos
+  travl_travel_danger.0001.t: "$travel_danger_prefix$ Bandidos"
+  travl_travel_danger.0001.desc: "Encontramos bandidos na estrada."
+  travl_travel_danger.0001.a: "Enfrentá-los"
+  travl_travel_danger.0001.a.success: "Você consegue derrotar os bandidos"
+  travl_travel_danger.0001.a.failure: "Você falha em derrotar os bandidos"
+  travl_travel_danger.0001.b: "Convencê-los a nos deixar passar"
+  travl_travel_danger.0001.b.success: "Você consegue convencer os bandidos"
+  travl_travel_danger.0001.b.failure: "Você falha em convencer os bandidos"
+  travl_travel_danger.0001.c: "Pagá-los"
+  travl_travel_danger.0001.d: "Estamos à mercê deles..."
+  # travel_danger.0002 Companheiro Desaparecido
+  travl_travel_danger.0002.t: "$travel_danger_prefix$ Companheiro Desaparecido"
+  travl_travel_danger.0002.desc: "Um dos nossos companheiros desapareceu."
+  travl_travel_danger.0002.a: "Procurá-lo"
+  travl_travel_danger.0002.a.success: "Você consegue encontrar o companheiro desaparecido"
+  travl_travel_danger.0002.a.failure: "Você falha em encontrar o companheiro desaparecido"
+  travl_travel_danger.0002.b: "Deixá-lo para trás"
+  # travel_danger.0003 Perdido
+  travl_travel_danger.0003.t: "$travel_danger_prefix$ Perdido"
+  travl_travel_danger.0003.desc: "Nós perdemos o caminho."
+  travl_travel_danger.0003.a: "Tentar encontrar o caminho"
+  travl_travel_danger.0003.a.success: "Você consegue encontrar o caminho"
+  travl_travel_danger.0003.a.failure: "Você falha em encontrar o caminho"
+  travl_travel_danger.0003.b: "Encontrar um guia local"
+  travl_travel_danger.0003.b.success: "Você consegue encontrar um guia local"
+  travl_travel_danger.0003.b.failure: "Você falha em encontrar um guia local"
+  travl_travel_danger.0003.c: "Avançar"
+
+  # travel_danger.0004 Sem Água
+  travl_travel_danger.0004.t: "$travel_danger_prefix$ Sem Água"
+  travl_travel_danger.0004.desc: "Estamos sem água."
+  travl_travel_danger.0004.a: "Ir para um oásis próximo"
+  travl_travel_danger.0004.b: "Sacie a sede de seus companheiros com um discurso inspirador"
+  travl_travel_danger.0004.b.success: "Você consegue inspirar seus companheiros"
+  travl_travel_danger.0004.b.failure: "Você falha em inspirar seus companheiros"
+  travl_travel_danger.0004.c: "Interrogar um companheiro sobre uma fonte secreta de água"
+  travl_travel_danger.0004.c.success: "Você consegue encontrar água através do interrogatório"
+  travl_travel_danger.0004.c.failure: "Você falha em encontrar água através do interrogatório"
+  travl_travel_danger.0004.d: "Não há nada que possamos fazer..."
+
+  # travel_danger.0005 Consequências
+  travl_travel_danger.0005.t: "$travel_danger_prefix$ Consequências"
+  travl_travel_danger.0005.desc: "Encontramos um(a) [zombie.GetWomanMan] miserável enquanto viajávamos por uma área devastada pela guerra."
+  travl_travel_danger.0005.a: "Impedir [zombie.GetHerHim]"
+  travl_travel_danger.0005.b: "Deixar [zombie.GetHerHim] se aproximar"
+  travl_travel_danger.0005.b.good: "[zombie.GetSheHe] tem boas intenções"
+  travl_travel_danger.0005.b.bad: "[zombie.GetSheHe] tem más intenções"
+
+  travl_travel_danger.1005.t: "$travl_travel_danger.0005.t$, Boas Intenções"
+  travl_travel_danger.1005.desc: "O(a) [zombie.GetWomanMan] nos pede ajuda."
+  travl_travel_danger.1005.a: "Dar ouro para [zombie.GetHerHim]"
+  travl_travel_danger.1005.b: "Deixar [zombie.GetHerHim] se juntar a nós"
+  travl_travel_danger.1005.c: "Não é problema meu"
+
+  travl_travel_danger.2005.t: "$travl_travel_danger.0005.t$, Más Intenções"
+  travl_travel_danger.2005.desc: "O(a) [zombie.GetWomanMan] nos ataca."
+  travl_travel_danger.2005.a: "Repele [zombie.GetHerHim]"
+  travl_travel_danger.2005.a.success: "Você consegue repelir [zombie.GetHerHim]"
+  travl_travel_danger.2005.a.failure: "Você falha em repelir [zombie.GetHerHim]"
+  travl_travel_danger.2005.b: "Fugir de [zombie.GetHerHim]"
+
+  # travel_danger.0006 Tempestade no Mar
+  travl_travel_danger.0006.t: "$travel_danger_prefix$ Tempestade no Mar"
+  travl_travel_danger.0006.desc: "Uma terrível tempestade no mar nos engole. Eu observo com horror enquanto marinheiros são lançados nas profundezas escuras, e uma enorme onda se ergue sobre o navio."
+  travl_travel_danger.0006.a: "Arghghghghgh!"
+
+  # travel_danger.0007 Avalanche
+  travl_travel_danger.0007.t: "$travel_danger_prefix$ Avalanche"
+  travl_travel_danger.0007.desc: "Um de nossos companheiros foi soterrado pela neve em uma avalanche."
+  travl_travel_danger.0007.a: "Tentar resgatá-los"
+  travl_travel_danger.0007.a.success: "Você consegue resgatar a vítima da avalanche"
+  travl_travel_danger.0007.a.failure: "Você falha em resgatar a vítima da avalanche"
+  travl_travel_danger.0007.b: "Não tentar resgatá-los"
+
+  # travel_danger.0008 Presos na Neve
+  travl_travel_danger.0008.t: "$travel_danger_prefix$ Presos na Neve"
+  travl_travel_danger.0008.desc: "Estamos presos na neve, com a estrada à frente completamente intransitável. Alguns locais estão se oferecendo para nos ajudar por um preço."
+  travl_travel_danger.0008.a: "Convencê-los a nos ajudar de graça"
+  travl_travel_danger.0008.a.success: "Você consegue convencer os locais"
+  travl_travel_danger.0008.a.failure: "Você falha em convencer os locais"
+  travl_travel_danger.0008.b: "Pagar para que nos ajudem"
+  travl_travel_danger.0008.c: "Tentar resolver por conta própria"
+
+  # travel_danger.0009 Velas Rasgadas
+  travl_travel_danger.0009.t: "$travel_danger_prefix$ Velas Rasgadas"
+  travl_travel_danger.0009.desc: "Estamos presos em uma tempestade branca. Nosso mastro caiu no mar e nossas velas estão rasgadas."
+  travl_travel_danger.0009.a: "Erguer velas improvisadas"
+  travl_travel_danger.0009.a.success: "Você consegue fazer o navio navegar novamente"
+  travl_travel_danger.0009.a.failure: "Você falha em fazer o navio navegar novamente"
+  travl_travel_danger.0009.b: "Esperar que alguém nos encontre"
+
+  # travel_danger.0010 Incêndio Florestal
+  travl_travel_danger.0010.t: "$travel_danger_prefix$ Incêndio Florestal"
+  travl_travel_danger.0010.desc: "Um raio provocou um incêndio florestal que está se expandindo rapidamente, e está se espalhando em nossa direção."
+  travl_travel_danger.0010.a: "Tentar apagá-lo"
+  travl_travel_danger.0010.a.success: "Você consegue controlar o fogo"
+  travl_travel_danger.0010.a.failure: "Você falha em controlar o fogo"
+  travl_travel_danger.0010.b: "Correr"
+
+  # travel_danger.0011 Mosquitos
+  travl_travel_danger.0011.t: "$travel_danger_prefix$ Mosquitos"
+  travl_travel_danger.0011.desc: "Estamos sendo atormentados por mosquitos."
+  travl_travel_danger.0011.a: "Tentar usar uma erva local como remédio"
+  travl_travel_danger.0011.a.success: "Você consegue usar uma erva local como remédio"
+  travl_travel_danger.0011.a.failure: "Você falha em usar uma erva local como remédio"
+  travl_travel_danger.0011.b: "Seguir em frente"
+
+  # travel_danger.0012 Ataque de Fera
+  travl_travel_danger.0012.t: "$travel_danger_prefix$ Ataque de Fera"
+  travl_travel_danger.0012.desc: "Estamos sendo atacados por uma fera temível."
+  travl_travel_danger.0012.a: "Enfrentá-la"
+  travl_travel_danger.0012.a.success: "Você consegue matar a fera"
+  travl_travel_danger.0012.a.failure: "Você falha em matar a fera"
+  travl_travel_danger.0012.b: "Correr"
+
+  # travel_danger.0013 Comida Estragada
+  travl_travel_danger.0013.t: "$travel_danger_prefix$ Comida Estragada"
+  travl_travel_danger.0013.desc: "Nossos suprimentos de comida estão praticamente inutilizáveis, devido ao armazenamento inadequado."
+  travl_travel_danger.0013.a: "Forragear"
+  travl_travel_danger.0013.a.success: "Você consegue encontrar comida forrageando"
+  travl_travel_danger.0013.a.failure: "Você falha em encontrar comida forrageando"
+  travl_travel_danger.0013.b: "Roubar dos locais"
+  travl_travel_danger.0013.b.success: "Você consegue roubar comida dos locais"
+  travl_travel_danger.0013.b.failure: "Você falha em roubar comida dos locais"
+  travl_travel_danger.0013.c: "Comer o que temos"
+
+  # travel_danger.0014 Doença
+  travl_travel_danger.0014.t: "$travel_danger_prefix$ Doença"
+  travl_travel_danger.0014.desc: "Alguns de nós começam a se sentir fracos, ficando para trás do restante do grupo... Há algo de errado..."
+  travl_travel_danger.0014.a: "Precisamos continuar..."
+
+  # travel_danger.0015 Carniça
+  travl_travel_danger.0015.t: "$travel_danger_prefix$ Carniça"
+  travl_travel_danger.0015.desc: "Nossos suprimentos de água estão acabando quando entramos em uma vila deserta com um poço e muitos cadáveres."
+  travl_travel_danger.0015.a: "Tornar a água segura para beber fervendo-a e misturando-a com ervas"
+  travl_travel_danger.0015.a.success: "Você consegue tornar a água segura para beber"
+  travl_travel_danger.0015.a.failure: "Você falha em tornar a água segura para beber"
+  travl_travel_danger.0015.b: "Beber do poço"
+  travl_travel_danger.0015.c: "Precisamos continuar..."
+
+  # Textos de eventos de prisioneiros (eventos reais, devem ser traduzidos)
+  # prisoner.0001 Fuga da Prisão
+  travl_prisoner.0001.t: "Escapou da prisão"
+  travl_prisoner.0001.desc: "Estou preso, mas ainda não na prisão. Enquanto viajo, estou levemente vigiado, e parece que o melhor momento para tentar uma fuga é AGORA, antes de chegarmos ao nosso destino. No entanto, como lidar com os guardas?"
+  travl_prisoner.0001.a: "Atacar [guard.GetShortUIName] e tentar escapar"
+  travl_prisoner.0001.a.success: "Você consegue derrotar [guard.GetShortUIName]"
+  travl_prisoner.0001.a.failure: "Você falha em derrotar [guard.GetShortUIName]"
+  travl_prisoner.0001.b: "Convencer [guard.GetShortUIName] a me libertar"
+  travl_prisoner.0001.b.success: "Você consegue convencer [guard.GetShortUIName]"
+  travl_prisoner.0001.b.failure: "Você falha em convencer [guard.GetShortUIName], e [guard.GetSheHe] te açoita por sua insolência"
+  travl_prisoner.0001.c: "Enganar [guard.GetShortUIName] para me libertar"
+  travl_prisoner.0001.c.success: "Você consegue enganar [guard.GetShortUIName]"
+  travl_prisoner.0001.c.failure: "Você falha em enganar [guard.GetShortUIName], e [guard.GetSheHe] te açoita (forte) por sua insolência"
+  travl_prisoner.0001.d: "Subornar [guard.GetShortUIName] para me deixar escapar"
+  travl_prisoner.0001.d.success: "[guard.GetShortUIName] aceita seu suborno e te deixa escapar"
+  travl_prisoner.0001.d.failure: "[guard.GetShortUIName] não aceita seu suborno e ri de você"
+  travl_prisoner.0001.e: "Seduzir [guard.GetShortUIName] para ganhar minha liberdade"
+  travl_prisoner.0001.e.success: "Você consegue seduzir [guard.GetShortUIName] e [guard.GetSheHe] te liberta"
+  travl_prisoner.0001.e.failure: "Você falha em seduzir [guard.GetShortUIName] e [guard.GetSheHe] ri de você"
+  travl_prisoner.0001.z: "É muito perigoso"
+
+  # prisoner.0002 Exército Hostil
+  travl_prisoner.0002.t: "Exército Hostil"
+  travl_prisoner.0002.desc: "Um exército hostil liderado por [army_commander.GetShortUIName] está por perto. Se eles nos interceptarem, podem nos capturar ou pior."
+  travl_prisoner.0002.a: "Evite-os a todo custo!"
+  travl_prisoner.0002.a.success: "Você consegue evitar ser interceptado pelo exército"
+  travl_prisoner.0002.a.failure: "Você falha em evitar ser interceptado pelo exército"
+
+  # Títulos de mensagens de perigo de viagem
+  travl_msg_travel_danger_0001_t: "$travel_danger_prefix$ Bandidos"
+  travl_msg_travel_danger_0002_t: "$travel_danger_prefix$ Companheiro Desaparecido"
+  travl_msg_travel_danger_0003_t: "$travel_danger_prefix$ Perdido"
+  travl_msg_travel_danger_0004_t: "$travel_danger_prefix$ Sem Água"
+  travl_msg_travel_danger_0005_t: "$travel_danger_prefix$ Consequências"
+  travl_msg_travel_danger_1005_t: "$travl_msg_travel_danger_0005_t$, Boas Intenções"
+  travl_msg_travel_danger_2005_t: "$travl_msg_travel_danger_0005_t$, Más Intenções"
+  travl_msg_travel_danger_0006_t: "$travel_danger_prefix$ Tempestade no Mar"
+  travl_msg_travel_danger_0007_t: "$travel_danger_prefix$ Avalanche"
+  travl_msg_travel_danger_0008_t: "$travel_danger_prefix$ Presos na Neve"
+  travl_msg_travel_danger_0009_t: "$travel_danger_prefix$ Velas Rasgadas"
+  travl_msg_travel_danger_0010_t: "$travel_danger_prefix$ Incêndio Florestal"
+  travl_msg_travel_danger_0011_t: "$travel_danger_prefix$ Mosquitos"
+  travl_msg_travel_danger_0012_t: "$travel_danger_prefix$ Ataque de Fera"
+  travl_msg_travel_danger_0013_t: "$travel_danger_prefix$ Comida Estragada"
+  travl_msg_travel_danger_0014_t: "$travel_danger_prefix$ Doença"
+  travl_msg_travel_danger_0015_t: "$travel_danger_prefix$ Carniça"
+
+  # Títulos de mensagens de prisioneiros
+  travl_msg_prisoner_0001_t: "Fuga da Prisão"
+  travl_msg_prisoner_0002_t: "Exército Hostil"
+
+  # travel_danger.0001 Bandidos
+  travl_msg_travel_danger_0001_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros encontraram bandidos na estrada em [location.GetName]"
+  travl_msg_travel_danger_0001_a_success: "$travl_msg_travel_danger_0001_prefix$, mas $travl_this_or_prowess_character$ conseguiu derrotá-los na luta que se seguiu."
+  travl_msg_travel_danger_0001_a_failure: "$travl_msg_travel_danger_0001_prefix$, e $travl_this_or_prowess_character$ falhou em derrotá-los na luta que se seguiu."
+  travl_msg_travel_danger_0001_b_success: "$travl_msg_travel_danger_0001_prefix$, mas $travl_this_or_diplomacy_character$ conseguiu convencê-los a deixá-los passar."
+  travl_msg_travel_danger_0001_b_failure: "$travl_msg_travel_danger_0001_prefix$, e $travl_this_or_diplomacy_character$ falhou em convencê-los a deixá-los passar."
+  travl_msg_travel_danger_0001_c: "$travl_msg_travel_danger_0001_prefix$, e $travl_this_or_gold_character$ pagou-lhes com ouro."
+  travl_msg_travel_danger_0001_d: "$travl_msg_travel_danger_0001_prefix$ e foram atacados e roubados por eles."
+
+  # travel_danger.0002 Companheiro Desaparecido
+  travl_msg_travel_danger_0002_prefix: "Um dos companheiros de [THIS.Char.GetShortUINamePossessive|U], [missing_companion.GetShortUIName], desapareceu nos [location.Custom('GetTerrainTypePlural')] de [location.GetName]"
+  travl_msg_travel_danger_0002_a_success: "$travl_msg_travel_danger_0002_prefix$, mas $travl_this_or_stewardship_character$ conseguiu encontrar [missing_companion.GetHerHim]."
+  travl_msg_travel_danger_0002_a_failure: "$travl_msg_travel_danger_0002_prefix$, e $travl_this_or_stewardship_character$ falhou em encontrar [missing_companion.GetHerHim]."
+  travl_msg_travel_danger_0002_b: "$travl_msg_travel_danger_0002_prefix$, e eles deixaram [missing_companion.GetHerHim] para trás."
+
+  # travel_danger.0003 Perdido
+  travl_msg_travel_danger_0003_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros perderam o caminho nos [location.Custom('GetTerrainTypePlural')] de [location.GetName]"
+  travl_msg_travel_danger_0003_a_success: "$travl_msg_travel_danger_0003_prefix$, mas $travl_this_or_learning_character$ conseguiu encontrar o caminho correto."
+  travl_msg_travel_danger_0003_a_failure: "$travl_msg_travel_danger_0003_prefix$, e $travl_this_or_learning_character$ falhou em encontrar o caminho correto."
+  travl_msg_travel_danger_0003_b_success: "$travl_msg_travel_danger_0003_prefix$, mas $travl_this_or_stewardship_character$ conseguiu encontrar um guia local experiente."
+  travl_msg_travel_danger_0003_b_failure: "$travl_msg_travel_danger_0003_prefix$, e $travl_this_or_stewardship_character$ falhou em encontrar um guia local experiente."
+  travl_msg_travel_danger_0003_c: "$travl_msg_travel_danger_0003_prefix$ e vagaram por dias tentando encontrá-lo."
+
+  # travel_danger.0004 Sem Água
+  travl_msg_travel_danger_0004_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros ficaram sem água ao atravessar os [location.Custom('GetTerrainTypePlural')] de [location.GetName]"
+  travl_msg_travel_danger_0004_a: "$travl_msg_travel_danger_0004_prefix$ e tiveram que parar em um oásis próximo."
+  travl_msg_travel_danger_0004_b_success: "$travl_msg_travel_danger_0004_prefix$, mas $travl_this_or_diplomacy_character$ conseguiu inspirá-los com esperança."
+  travl_msg_travel_danger_0004_b_failure: "$travl_msg_travel_danger_0004_prefix$, e $travl_this_or_diplomacy_character$ falhou em inspirá-los com esperança."
+  travl_msg_travel_danger_0004_c_success: "$travl_msg_travel_danger_0004_prefix$, mas [THIS.Char.GetSheHe] conseguiu encontrar água interrogando [water_hider.GetShortUIName]."
+  travl_msg_travel_danger_0004_c_failure: "$travl_msg_travel_danger_0004_prefix$, e [THIS.Char.GetSheHe] falhou em encontrar água interrogando [water_hider.GetShortUIName]."
+  travl_msg_travel_danger_0004_d: "$travl_msg_travel_danger_0004_prefix$ e sofreram muito com a sede."
+
+  # travel_danger.0005 Consequências
+  travl_msg_travel_danger_0005_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros encontraram um(a) miserável [zombie.GetWomanMan] enquanto passavam pela área devastada pela guerra em [location.GetName]"
+  travl_msg_travel_danger_0005_a: "$travl_msg_travel_danger_0005_prefix$ e mataram [zombie.GetHerHim]."
+
+  travl_msg_travel_danger_1005_prefix: "e quando [zombie.GetSheHe] pediu ajuda"
+  travl_msg_travel_danger_1005_a: "$travl_msg_travel_danger_0005_prefix$, $travl_msg_travel_danger_1005_prefix$, $travl_this_or_gold_character$ deu ouro para [zombie.GetHerHim]."
+  travl_msg_travel_danger_1005_b: "$travl_msg_travel_danger_0005_prefix$, $travl_msg_travel_danger_1005_prefix$, eles deixaram [zombie.GetHerHim] juntar-se a eles."
+  travl_msg_travel_danger_1005_c: "$travl_msg_travel_danger_0005_prefix$, $travl_msg_travel_danger_1005_prefix$, eles ignoraram os pedidos de [zombie.GetHerHis]."
+
+  travl_msg_travel_danger_2005_prefix: "e quando [zombie.GetSheHe] os atacou"
+  travl_msg_travel_danger_2005_a_success: "$travl_msg_travel_danger_0005_prefix$, $travl_msg_travel_danger_2005_prefix$, $travl_this_or_prowess_character$ conseguiu repelir [zombie.GetHerHim]."
+  travl_msg_travel_danger_2005_a_failure: "$travl_msg_travel_danger_0005_prefix$, $travl_msg_travel_danger_2005_prefix$, $travl_this_or_prowess_character$ falhou em repelir [zombie.GetHerHim]."
+  travl_msg_travel_danger_2005_b: "$travl_msg_travel_danger_0005_prefix$, $travl_msg_travel_danger_2005_prefix$, eles fugiram de [zombie.GetHerHim]."
+  
+  # travel_danger.0006 Tempestade no Mar
+  travl_msg_travel_danger_0006_a: "[THIS.Char.GetShortUIName|U] e seus companheiros foram pegos em uma terrível tempestade em [location.GetName] e ninguém ouviu falar deles desde então."
+
+  # travel_danger.0007 Avalanche
+  travl_msg_travel_danger_0007_prefix: "Um dos companheiros de [THIS.Char.GetShortUINamePossessive|U], [avalanche_victim.GetShortUIName], foi soterrado pela neve em uma avalanche nos [location.Custom('GetTerrainTypePlural')] de [location.GetName]"
+  travl_msg_travel_danger_0007_a_success: "$travl_msg_travel_danger_0007_prefix$, mas $travl_this_or_prowess_character$ conseguiu resgatar [avalanche_victim.GetHerHim]."
+  travl_msg_travel_danger_0007_a_failure: "$travl_msg_travel_danger_0007_prefix$, e $travl_this_or_prowess_character$ falhou em resgatar [avalanche_victim.GetHerHim]."
+  travl_msg_travel_danger_0007_b: "$travl_msg_travel_danger_0007_prefix$, e eles nem sequer tentaram resgatar [avalanche_victim.GetHerHim]."
+
+  # travel_danger.0008 Presos na Neve
+  travl_msg_travel_danger_0008_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros ficaram presos após uma forte nevasca em [location.GetName]"
+  travl_msg_travel_danger_0008_a_success: "$travl_msg_travel_danger_0008_prefix$, mas $travl_this_or_diplomacy_character$ conseguiu convencer alguns locais a ajudá-los."
+  travl_msg_travel_danger_0008_a_failure: "$travl_msg_travel_danger_0008_prefix$, e $travl_this_or_diplomacy_character$ falhou em convencer alguns locais a ajudá-los."
+  travl_msg_travel_danger_0008_b: "$travl_msg_travel_danger_0008_prefix$, e $travl_this_or_gold_character$ pagou alguns locais para ajudá-los."
+  travl_msg_travel_danger_0008_c: "$travl_msg_travel_danger_0008_prefix$ e não aceitaram a ajuda oferecida por alguns locais."
+
+  # travel_danger.0009 Velas Rasgadas
+  travl_msg_travel_danger_0009_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros perderam as velas em uma tempestade branca em [location.GetName]"
+  travl_msg_travel_danger_0009_a_success: "$travl_msg_travel_danger_0009_prefix$, mas $travl_this_or_learning_character$ conseguiu fazer o navio navegar novamente com velas improvisadas."
+  travl_msg_travel_danger_0009_a_failure: "$travl_msg_travel_danger_0009_prefix$, e $travl_this_or_learning_character$ falhou em fazer o navio navegar novamente com velas improvisadas."
+  travl_msg_travel_danger_0009_b: "$travl_msg_travel_danger_0009_prefix$ e derivaram lentamente com o vento até que um navio que passava ofereceu assistência."
+
+  # travel_danger.0010 Incêndio Florestal
+  travl_msg_travel_danger_0010_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros foram surpreendidos por um incêndio florestal nos [location.Custom('GetTerrainTypePlural')] de [location.GetName]"
+  travl_msg_travel_danger_0010_a_success: "$travl_msg_travel_danger_0010_prefix$, mas $travl_this_or_martial_character$ conseguiu apagá-lo."
+  travl_msg_travel_danger_0010_a_failure: "$travl_msg_travel_danger_0010_prefix$, e $travl_this_or_martial_character$ falhou em apagá-lo."
+  travl_msg_travel_danger_0010_b: "$travl_msg_travel_danger_0010_prefix$ e correram para salvar suas vidas em desespero."
+
+  # travel_danger.0011 Mosquitos
+  travl_msg_travel_danger_0011_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros foram atormentados por mosquitos nos [location.Custom('GetTerrainTypePlural')] de [location.GetName]"
+  travl_msg_travel_danger_0011_a_success: "$travl_msg_travel_danger_0011_prefix$, mas $travl_this_or_learning_character$ conseguiu usar uma erva local como remédio."
+  travl_msg_travel_danger_0011_a_failure: "$travl_msg_travel_danger_0011_prefix$, e $travl_this_or_learning_character$ falhou em usar uma erva local como remédio."
+  travl_msg_travel_danger_0011_b: "$travl_msg_travel_danger_0011_prefix$ e seguiram em frente o melhor que puderam."
+
+  # travel_danger.0012 Ataque de Fera
+  travl_msg_travel_danger_0012_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros foram atacados por um(a) temível [THIS.Char.Custom('GetAnimalType')] nos [location.Custom('GetTerrainTypePlural')] de [location.GetName]"
+  travl_msg_travel_danger_0012_a_success: "$travl_msg_travel_danger_0012_prefix$, mas $travl_this_or_prowess_character$ conseguiu matá-lo(a)."
+  travl_msg_travel_danger_0012_a_failure: "$travl_msg_travel_danger_0012_prefix$, e $travl_this_or_prowess_character$ falhou em matá-lo(a)."
+  travl_msg_travel_danger_0012_b: "$travl_msg_travel_danger_0012_prefix$ e correram para salvar suas vidas em terror."
+
+  # travel_danger.0013 Comida Estragada
+  travl_msg_travel_danger_0013_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros descobriram que seus suprimentos de comida estavam estragados em [location.GetName]"
+  travl_msg_travel_danger_0013_a_success: "$travl_msg_travel_danger_0013_prefix$, mas $travl_this_or_learning_character$ conseguiu encontrar comida forrageando."
+  travl_msg_travel_danger_0013_a_failure: "$travl_msg_travel_danger_0013_prefix$, e $travl_this_or_learning_character$ falhou em encontrar comida forrageando."
+  travl_msg_travel_danger_0013_b_success: "$travl_msg_travel_danger_0013_prefix$, mas $travl_this_or_intrigue_character$ conseguiu roubar comida dos locais."
+  travl_msg_travel_danger_0013_b_failure: "$travl_msg_travel_danger_0013_prefix$, e $travl_this_or_intrigue_character$ falhou em roubar comida dos locais."
+  travl_msg_travel_danger_0013_c: "$travl_msg_travel_danger_0013_prefix$ e simplesmente comeram o que tinham, arriscando contrair doenças."
+
+  # travel_danger.0014 Doença
+  travl_msg_travel_danger_0014_a: "[THIS.Char.GetShortUIName|U] e seus companheiros ficaram doentes enquanto viajavam pelos [location.Custom('GetTerrainTypePlural')] de [location.GetName]."
+
+  # travel_danger.0015 Carniça
+  travl_msg_travel_danger_0015_prefix: "[THIS.Char.GetShortUIName|U] e seus companheiros encontraram um poço com água contaminada em [location.GetName]"
+  travl_msg_travel_danger_0015_a_success: "$travl_msg_travel_danger_0015_prefix$, mas $travl_this_or_learning_character$ conseguiu tornar a água segura para beber fervendo-a."
+  travl_msg_travel_danger_0015_a_failure: "$travl_msg_travel_danger_0015_prefix$, e $travl_this_or_learning_character$ falhou em tornar a água segura para beber fervendo-a."
+  travl_msg_travel_danger_0015_b: "$travl_msg_travel_danger_0015_prefix$ e beberam dela."
+  travl_msg_travel_danger_0015_c: "$travl_msg_travel_danger_0015_prefix$ e não ousaram beber dela, permanecendo com sede por algum tempo."
+
+  # prisoner.0001 Fuga da Prisão
+  travl_msg_prisoner_0001_prefix: "[THIS.Char.GetShortUIName|U] tentou escapar $travl_char_your_her_his$ guardas em [location.GetName]"
+  travl_msg_prisoner_0001_a_success: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ atacou [guard.GetShortUIName] e, de alguma forma, conseguiu derrotá-lo(a)."
+  travl_msg_prisoner_0001_a_failure: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ atacou [guard.GetShortUIName], mas falhou em derrotá-lo(a)."
+  travl_msg_prisoner_0001_b_success: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ conseguiu convencer [guard.GetShortUIName] a libertá-lo(a)."
+  travl_msg_prisoner_0001_b_failure: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ falhou em convencer [guard.GetShortUIName] a libertá-lo(a) e $travl_char_were_was$ açoitado(a) por $travl_char_your_her_his$ insolência."
+  travl_msg_prisoner_0001_c_success: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ conseguiu enganar [guard.GetShortUIName] para libertá-lo(a)."
+  travl_msg_prisoner_0001_c_failure: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ falhou em enganar [guard.GetShortUIName] para libertá-lo(a) e $travl_char_were_was$ açoitado(a) por $travl_char_your_her_his$ insolência."
+  travl_msg_prisoner_0001_d_success: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ subornou [guard.GetShortUIName] para deixá-lo(a) escapar."
+  travl_msg_prisoner_0001_d_failure: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ falhou em subornar [guard.GetShortUIName] para deixá-lo(a) escapar e $travl_char_were_was$ ridicularizado(a)."
+  travl_msg_prisoner_0001_e_success: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ seduziu [guard.GetShortUIName] para ganhar sua liberdade."
+  travl_msg_prisoner_0001_e_failure: "$travl_msg_prisoner_0001_prefix$. $travl_char_you_she_he_u$ falhou em seduzir [guard.GetShortUIName] para ganhar sua liberdade e $travl_char_were_was$ ridicularizado(a)."
+
+  # prisoner.0002 Exército Hostil
+  travl_msg_prisoner_0002_prefix: "[THIS.Char.GetShortUIName|U] e [THIS.Char.GetHerHis] prisioneiros escoltados passaram por um exército hostil liderado por [army_commander.GetShortUIName] em [location.GetName]"
+  travl_msg_prisoner_0002_a_success: "$travl_msg_prisoner_0002_prefix$, mas [THIS.Char.GetSheHe] conseguiu evitar ser interceptado(a)."
+  travl_msg_prisoner_0002_a_failure: "$travl_msg_prisoner_0002_prefix$, e [THIS.Char.GetSheHe] falhou em evitar ser interceptado(a)."
+
+  travl_this_or_diplomacy_character: "[Select_CString(EqualTo_uint32(THIS.Char.GetID, diplomacy_character.GetID), THIS.Char.GetSheHe, diplomacy_character.GetShortUIName)]"
+  travl_this_or_martial_character: "[Select_CString(EqualTo_uint32(THIS.Char.GetID, martial_character.GetID), THIS.Char.GetSheHe, martial_character.GetShortUIName)]"
+  travl_this_or_stewardship_character: "[Select_CString(EqualTo_uint32(THIS.Char.GetID, stewardship_character.GetID), THIS.Char.GetSheHe, stewardship_character.GetShortUIName)]"
+  travl_this_or_intrigue_character: "[Select_CString(EqualTo_uint32(THIS.Char.GetID, intrigue_character.GetID), THIS.Char.GetSheHe, intrigue_character.GetShortUIName)]"
+  travl_this_or_learning_character: "[Select_CString(EqualTo_uint32(THIS.Char.GetID, learning_character.GetID), THIS.Char.GetSheHe, learning_character.GetShortUIName)]"
+  travl_this_or_prowess_character: "[Select_CString(EqualTo_uint32(THIS.Char.GetID, prowess_character.GetID), THIS.Char.GetSheHe, prowess_character.GetShortUIName)]"
+  travl_this_or_gold_character: "[Select_CString(EqualTo_uint32(THIS.Char.GetID, gold_character.GetID), THIS.Char.GetSheHe, gold_character.GetShortUIName)]"
+
+  travl_char_you_she_he: "[Select_CString(THIS.Char.IsLocalPlayer, 'você', THIS.Char.GetSheHe)]"
+  travl_char_you_she_he_u: "[Select_CString(THIS.Char.IsLocalPlayer, 'você', THIS.Char.GetSheHe)|U]"
+  travl_char_you_her_him: "[Select_CString(THIS.Char.IsLocalPlayer, 'você', THIS.Char.GetHerHim)]"
+  travl_char_your_her_his: "[Select_CString(THIS.Char.IsLocalPlayer, 'seu', THIS.Char.GetHerHis)]"
+  travl_char_were_was: "[Select_CString(THIS.Char.IsLocalPlayer, 'foi', 'foi')]"
+
+  # Dicas de ferramentas personalizadas
+  travl_they_got_a_visitor_tt: "[THIS.Char.GetShortUIName|U] mudou-se para ficar na [court|E] de [THIS.Var('travl_event_host').Char.GetShortUINamePossessive]"
 
