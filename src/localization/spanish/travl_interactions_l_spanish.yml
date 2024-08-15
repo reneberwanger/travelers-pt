@@ -1,23 +1,15 @@
 ﻿l_spanish:
-  recipient_secondary_travl_invite_courtiers_interaction: $INTERACTION_RECIPIENT$
-  travl_arrived_at_court_joined_tt: $travl_arrived_at_court_tt$ [CHARACTER.GetSheHe|U]
-    joined [TARGET_CHARACTER.GetShortUINamePossessive] court only temporarily and
-    will leave now.
-  travl_arrived_at_court_tt: '[CHARACTER.GetShortUIName] arrived at [TARGET_CHARACTER.GetShortUINamePossessive]
-    court.'
-  travl_departed_for_court_joined_tt: $travl_departed_for_court_tt$ [CHARACTER.GetSheHe|U]
-    joined [TARGET_CHARACTER.GetShortUINamePossessive] court only temporarily and
-    will leave on arrival.
-  travl_departed_for_court_tt: '[CHARACTER.GetShortUIName] departed for [TARGET_CHARACTER.GetShortUINamePossessive]
-    court.'
-  travl_invite_courtiers_interaction: Invite Characters to Court
-  travl_invite_courtiers_interaction_desc: Invite characters to move to your [court|E],
-    where they will be your [courtiers|E]
-  travl_msg_arrived_at_court: Arrived at Court
-  travl_msg_departed_for_court: Departed for Court
-  travl_msg_escaped_from_prison: Escaped from Prison
-  travl_msg_imprisoned: Imprisoned
-  travl_msg_prison_guard_departed: Enemy Prisoner Escort Departed
-  travl_prison_guard_departed_tt: '[CHARACTER.GetShortUIName] departed for your enemy
-    [TARGET_CHARACTER.GetShortUINamePossessive] court escorting prisoners. You can
-    try to free them by putting an army on [CHARACTER.GetHerHis] path.'
+recipient_secondary_travl_invite_courtiers_interaction: $INTERACTION_RECIPIENT$
+travl_arrived_at_court_joined_tt: $travl_arrived_at_court_tt$ [CHARACTER.GetSheHe|U] se juntou à corte de [TARGET_CHARACTER.GetShortUINamePossessive] apenas temporariamente e partirá agora.
+travl_arrived_at_court_tt: '[CHARACTER.GetShortUIName] chegou à corte de [TARGET_CHARACTER.GetShortUINamePossessive].'
+travl_departed_for_court_joined_tt: $travl_departed_for_court_tt$ [CHARACTER.GetSheHe|U] se juntou à corte de [TARGET_CHARACTER.GetShortUINamePossessive] apenas temporariamente e partirá ao chegar.
+travl_departed_for_court_tt: '[CHARACTER.GetShortUIName] partiu para a corte de [TARGET_CHARACTER.GetShortUINamePossessive].'
+travl_invite_courtiers_interaction: Convidar Personagens para a Corte
+travl_invite_courtiers_interaction_desc: Convide personagens para se mudarem para sua [corte|E], onde serão seus [cortesãos|E].
+travl_msg_arrived_at_court: Chegou à Corte
+travl_msg_departed_for_court: Partiu para a Corte
+travl_msg_escaped_from_prison: Fugiu da Prisão
+travl_msg_imprisoned: Preso(a)
+travl_msg_prison_guard_departed: Escolta de Prisioneiros Inimiga Partiu
+travl_prison_guard_departed_tt: '[CHARACTER.GetShortUIName] partiu para a corte do seu inimigo [TARGET_CHARACTER.GetShortUINamePossessive] escoltando prisioneiros. Você pode tentar libertá-los posicionando um exército no caminho de [CHARACTER.GetHerHis].'
+

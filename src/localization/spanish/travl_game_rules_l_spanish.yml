@@ -1,78 +1,56 @@
 ﻿l_spanish:
-  game_rule_category_travl_travelers: Travelers
-  rule_travl_interaction_range: '#P Travelers:#! Invite Characters to Court Range'
-  rule_travl_prison_interactions: '#P Travelers:#! Interactions for Traveling Prisoners'
-  rule_travl_teleport_detector_events: '#P Travelers:#! Location Tracker Events'
-  rule_travl_teleport_detector_interval: '#P Travelers:#! Location Tracker Interval'
-  rule_travl_travel_events: '#P Travelers:#! Travel Events for Unlanded Characters'
-  rule_travl_travel_messages: '#P Travelers:#! Travel Messages'
-  rule_travl_travel_safety: '#P Travelers:#! Travel Safety'
-  setting_travl_interaction_range_all: Diplomatic Range
-  setting_travl_interaction_range_all_desc: All characters in diplomatic range are
-    listed (slowest).
-  setting_travl_interaction_range_huge: '#high Huge#!'
-  setting_travl_interaction_range_huge_desc: Characters in diplomatic range and located
-    within 850 map-pixels are listed.
-  setting_travl_interaction_range_large: '#high Large#!'
-  setting_travl_interaction_range_large_desc: Characters in diplomatic range and located
-    within 650 map-pixels are listed.
-  setting_travl_interaction_range_massive: '#high Massive#!'
-  setting_travl_interaction_range_massive_desc: Characters in diplomatic range and
-    located within 1200 map-pixels are listed.
-  setting_travl_interaction_range_medium: '#high Medium#!'
-  setting_travl_interaction_range_medium_desc: Characters in diplomatic range and
-    located within 250 map-pixels are listed.
-  setting_travl_interaction_range_small: '#high Small#!'
-  setting_travl_interaction_range_small_desc: Characters in diplomatic range and located
-    within 150 map-pixels are listed (fastest).
-  setting_travl_prison_interactions_disabled: Disabled
-  setting_travl_prison_interactions_disabled_desc: Some interactions for traveling
-    prisoners are disabled.
-  setting_travl_prison_interactions_enabled: '#high Enabled#!'
-  setting_travl_prison_interactions_enabled_desc: All interactions for traveling prisoners
-    are enabled.
-  setting_travl_teleport_detector_events_disabled: Disabled
-  setting_travl_teleport_detector_events_disabled_desc: Location Tracker events are
-    disabled (faster, teleports may happen in very rare cases).
-  setting_travl_teleport_detector_events_enabled: '#high Enabled#!'
-  setting_travl_teleport_detector_events_enabled_desc: Location Tracker events are
-    enabled (slower, teleports converted to travel).
-  setting_travl_teleport_detector_interval_01: '#high 1 day#!'
-  setting_travl_teleport_detector_interval_01_desc: Location Tracker activates every
-    day (slowest, always accurate).
-  setting_travl_teleport_detector_interval_02: '#high 2 days#!'
-  setting_travl_teleport_detector_interval_02_desc: Location Tracker activates every
-    second day (slower, extremely low inaccuracy chance).
-  setting_travl_teleport_detector_interval_05: 5 days
-  setting_travl_teleport_detector_interval_05_desc: Location Tracker activates every
-    5th day (faster, very low inaccuracy chance).
-  setting_travl_teleport_detector_interval_10: '#high 10 days#!'
-  setting_travl_teleport_detector_interval_10_desc: Location Tracker activates every
-    10th day (fastest, low inaccuracy chance).
-  setting_travl_travel_events_disabled: '#high Disabled#!'
-  setting_travl_travel_events_disabled_desc: Travel events for unlanded characters
-    are disabled.
-  setting_travl_travel_events_enabled: Enabled
-  setting_travl_travel_events_enabled_desc: Travel events for unlanded characters
-    are enabled.
-  setting_travl_travel_messages_disabled: '#high Disabled#!'
-  setting_travl_travel_messages_disabled_desc: Departure, arrival, and event messages
-    for characters of interest are disabled.
-  setting_travl_travel_messages_enabled: Enabled
-  setting_travl_travel_messages_enabled_desc: Departure, arrival, and event messages
-    for characters of interest are enabled.
-  setting_travl_travel_messages_events_only: '#high Events Only#!'
-  setting_travl_travel_messages_events_only_desc: Only event messages for characters
-    of interest are enabled.
-  setting_travl_travel_safety_default: '#high Default#!'
-  setting_travl_travel_safety_default_desc: Travel safety is not increased for travel
-    caused by this mod compared to vanilla travel.
-  setting_travl_travel_safety_high: High
-  setting_travl_travel_safety_high_desc: Travel safety is increased by 20 for all
-    travel caused by this mod.
-  setting_travl_travel_safety_medium: '#high Medium#!'
-  setting_travl_travel_safety_medium_desc: Travel safety is increased by 10 for all
-    travel caused by this mod.
-  setting_travl_travel_safety_very_high: '#high Very High#!'
-  setting_travl_travel_safety_very_high_desc: Travel safety is increased by 40 for
-    all travel caused by this mod.
+game_rule_category_travl_travelers: Viajantes
+rule_travl_interaction_range: '#P Viajantes:#! Alcance de Interação para Convidar Personagens para a Corte'
+rule_travl_prison_interactions: '#P Viajantes:#! Interações para Prisioneiros em Viagem'
+rule_travl_teleport_detector_events: '#P Viajantes:#! Eventos de Rastreamento de Localização'
+rule_travl_teleport_detector_interval: '#P Viajantes:#! Intervalo de Rastreamento de Localização'
+rule_travl_travel_events: '#P Viajantes:#! Eventos de Viagem para Personagens Sem Terras'
+rule_travl_travel_messages: '#P Viajantes:#! Mensagens de Viagem'
+rule_travl_travel_safety: '#P Viajantes:#! Segurança de Viagem'
+setting_travl_interaction_range_all: Alcance Diplomático
+setting_travl_interaction_range_all_desc: Todos os personagens no alcance diplomático são listados (mais lento).
+setting_travl_interaction_range_huge: '#high Enorme#!'
+setting_travl_interaction_range_huge_desc: Personagens no alcance diplomático e localizados a até 850 pixels do mapa são listados.
+setting_travl_interaction_range_large: '#high Grande#!'
+setting_travl_interaction_range_large_desc: Personagens no alcance diplomático e localizados a até 650 pixels do mapa são listados.
+setting_travl_interaction_range_massive: '#high Massivo#!'
+setting_travl_interaction_range_massive_desc: Personagens no alcance diplomático e localizados a até 1200 pixels do mapa são listados.
+setting_travl_interaction_range_medium: '#high Médio#!'
+setting_travl_interaction_range_medium_desc: Personagens no alcance diplomático e localizados a até 250 pixels do mapa são listados.
+setting_travl_interaction_range_small: '#high Pequeno#!'
+setting_travl_interaction_range_small_desc: Personagens no alcance diplomático e localizados a até 150 pixels do mapa são listados (mais rápido).
+setting_travl_prison_interactions_disabled: Desativado
+setting_travl_prison_interactions_disabled_desc: Algumas interações para prisioneiros em viagem estão desativadas.
+setting_travl_prison_interactions_enabled: '#high Ativado#!'
+setting_travl_prison_interactions_enabled_desc: Todas as interações para prisioneiros em viagem estão ativadas.
+setting_travl_teleport_detector_events_disabled: Desativado
+setting_travl_teleport_detector_events_disabled_desc: Eventos de Rastreamento de Localização estão desativados (mais rápido, teletransportes podem ocorrer em casos muito raros).
+setting_travl_teleport_detector_events_enabled: '#high Ativado#!'
+setting_travl_teleport_detector_events_enabled_desc: Eventos de Rastreamento de Localização estão ativados (mais lento, teletransportes convertidos em viagem).
+setting_travl_teleport_detector_interval_01: '#high 1 dia#!'
+setting_travl_teleport_detector_interval_01_desc: O Rastreador de Localização é ativado todos os dias (mais lento, sempre preciso).
+setting_travl_teleport_detector_interval_02: '#high 2 dias#!'
+setting_travl_teleport_detector_interval_02_desc: O Rastreador de Localização é ativado a cada dois dias (mais lento, chance extremamente baixa de imprecisão).
+setting_travl_teleport_detector_interval_05: 5 dias
+setting_travl_teleport_detector_interval_05_desc: O Rastreador de Localização é ativado a cada 5 dias (mais rápido, chance muito baixa de imprecisão).
+setting_travl_teleport_detector_interval_10: '#high 10 dias#!'
+setting_travl_teleport_detector_interval_10_desc: O Rastreador de Localização é ativado a cada 10 dias (mais rápido, baixa chance de imprecisão).
+setting_travl_travel_events_disabled: '#high Desativado#!'
+setting_travl_travel_events_disabled_desc: Eventos de viagem para personagens sem terras estão desativados.
+setting_travl_travel_events_enabled: Ativado
+setting_travl_travel_events_enabled_desc: Eventos de viagem para personagens sem terras estão ativados.
+setting_travl_travel_messages_disabled: '#high Desativado#!'
+setting_travl_travel_messages_disabled_desc: Mensagens de partida, chegada e eventos para personagens de interesse estão desativadas.
+setting_travl_travel_messages_enabled: Ativado
+setting_travl_travel_messages_enabled_desc: Mensagens de partida, chegada e eventos para personagens de interesse estão ativadas.
+setting_travl_travel_messages_events_only: '#high Somente Eventos#!'
+setting_travl_travel_messages_events_only_desc: Somente mensagens de eventos para personagens de interesse estão ativadas.
+setting_travl_travel_safety_default: '#high Padrão#!'
+setting_travl_travel_safety_default_desc: A segurança de viagem não é aumentada para viagens causadas por este mod em comparação com as viagens padrão do jogo.
+setting_travl_travel_safety_high: Alta
+setting_travl_travel_safety_high_desc: A segurança de viagem é aumentada em 20 para todas as viagens causadas por este mod.
+setting_travl_travel_safety_medium: '#high Média#!'
+setting_travl_travel_safety_medium_desc: A segurança de viagem é aumentada em 10 para todas as viagens causadas por este mod.
+setting_travl_travel_safety_very_high: '#high Muito Alta#!'
+setting_travl_travel_safety_very_high_desc: A segurança de viagem é aumentada em 40 para todas as viagens causadas por este mod.
+
