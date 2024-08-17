@@ -12,8 +12,8 @@
   travl_msg_prison_guard_departed: "Escolta de Prisioneiros Inimiga Partiu"
 
   # Dicas de ferramentas das mensagens
-  travl_departed_for_court_tt: "[CHARACTER.GetShortUIName] partiu para a corte de [TARGET_CHARACTER.GetShortUINamePossessive]."
-  travl_arrived_at_court_tt: "[CHARACTER.GetShortUIName] chegou à corte de [TARGET_CHARACTER.GetShortUINamePossessive]."
+  travl_departed_for_court_tt: "[CHARACTER.GetShortUIName] partiu para a sua corte."
+  travl_arrived_at_court_tt: "[CHARACTER.GetShortUIName] chegou à sua corte."
   travl_departed_for_court_joined_tt: "$travl_departed_for_court_tt$ [CHARACTER.GetSheHe|U] se juntou temporariamente à corte de [TARGET_CHARACTER.GetShortUINamePossessive] e partirá ao chegar."
   travl_arrived_at_court_joined_tt: "$travl_arrived_at_court_tt$ [CHARACTER.GetSheHe|U] se juntou temporariamente à corte de [TARGET_CHARACTER.GetShortUINamePossessive] e partirá agora."
-  travl_prison_guard_departed_tt: "[CHARACTER.GetShortUIName] partiu para a corte de seu inimigo [TARGET_CHARACTER.GetShortUINamePossessive] escoltando prisioneiros. Você pode tentar libertá-los colocando um exército no caminho de [CHARACTER.GetHerHis]."
+  travl_prison_guard_departed_tt: "[CHARACTER.GetShortUIName] partiu para a corte de seu inimigo [TARGET_CHARACTER.GetShortUINamePossessive] escoltando prisioneiros. Você pode tentar libertá-los colocando um exército no caminho."

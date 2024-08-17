@@ -10,9 +10,9 @@
   travl_travel_safety_very_high_modifier_desc: "$travl_travel_safety_high_modifier_desc$"
 
   travl_prison_guard_modifier: "Escolta de Prisioneiros"
-  travl_prison_guard_modifier_desc: "Este personagem está escoltando prisioneiros em viagem"
+  travl_prison_guard_modifier_desc: "Este personagem está escoltando prisioneiros em cru"
 
-  travl_travel_prison_type: "Viajando para a Prisão"
+  travl_travel_prison_type: "Viagem para a Prisão"
   travl_travel_prison_type_desc: "Este personagem está preso e viajando para o local de sua prisão"
 
   travl_travel_leader_recruited.t: "Líder de Viagem Designado"
@@ -27,8 +27,8 @@
 
   travl_i_am_traveling_or_being_tortured: "[SelectLocalization(CHARACTER.MakeScope.Var('travl_travel_receiver').IsSet, 'travl_i_am_traveling', 'travl_i_am_being_tortured')]"
   travl_they_are_traveling_or_being_tortured: "[SelectLocalization(CHARACTER.MakeScope.Var('travl_travel_receiver').IsSet, 'travl_they_are_traveling', 'travl_they_are_being_tortured')]"
-  travl_i_am_traveling: "Você está viajando para o local de sua prisão"
-  travl_they_are_traveling: "[Character.GetShortUIName|U] está viajando para o local de sua prisão"
+  travl_i_am_traveling: "Você está viajando para o local a prisão"
+  travl_they_are_traveling: "[Character.GetShortUIName|U] está viajando para a prisão"
   travl_i_am_being_tortured: "Você está sendo torturado!"
   travl_they_are_being_tortured: "[Character.GetShortUIName|U] está sendo torturado"
 
